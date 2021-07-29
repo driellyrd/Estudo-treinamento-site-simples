@@ -1,0 +1,77 @@
+body {
+    background-color: #ededed;
+}
+
+h2 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+p {
+    font-family: verdana;
+    font-size: 15px;
+
+}
+span {
+    color: white; 
+    background-color: red;
+}
+
+#primeira-coluna {
+    width: 30%; 
+    float:left;
+   
+
+}
+#segunda-coluna {
+    width: 70%; 
+    margin-left: auto;
+    background-color: blue;
+
+}
+
+#paragrafos {
+    clear: both;
+}
+
+.corpo-do-texto {
+    font-family: arial;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+
+}
+
+table, th, td {
+    border: 1px solid black;
+
+
+}
+thead th {
+    background-color: darkgray;
+
+}
+tbody tr:nth-child(odd) {
+    background-color:lightgray;
+
+
+}
+
+tbody tr:hover, tfoot tr:hover {
+    background-color: black !important;
+    color: white;
+
+}
+
+button {
+    color: white; 
+    background-color: red;
+
+}
